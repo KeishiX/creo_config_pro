@@ -1,0 +1,17 @@
+﻿text_height 3.500000
+text_thickness 0.250000
+text_width_factor 0.800000
+! default_font rus1p
+draw_arrow_length 5.000000
+draw_arrow_width 1.500000
+draw_arrow_style FILLED
+draw_attach_sym_height 0.500000
+draw_attach_sym_width 0.500000
+draw_dot_diameter 0.500000
+leader_elbow_length 2.000000
+draft_scale 1.000000
+drawing_units MM
+line_style_standard STD_ISO
+node_radius 0.500000
+sym_flip_rotated_text YES
+yes_no_parameter_display YES_NO
