@@ -5,6 +5,7 @@
 ! Creo 3.0 config v.040 for M100       09/06/2016
 ! Creo 3.0 config v.042 for M100       09/29/2016
 ! Creo 3.0 config v.043 for M140       11/17/2017
+! Creo 3.0 config v.044 for M150       12/20/2017
 !================================================
 !
 !============================
@@ -21,8 +22,16 @@ pro_symbol_dir D:\ptc\pro_stds\symbols\
 tolerance_table_dir D:\ptc\pro_stds\tol_tables\
 pro_colormap_path D:\ptc\pro_stds\configs\
 hole_parameter_file_path D:\ptc\pro_stds\holes\
+!===
+! Color
+!===
+system_colors_file D:\work\creo\creo_syscol.scl
+!===
+! Search path
+!===
 search_path_file $CREO_COMMON_FILES\afx\parts\prolibrary\search.pro
 search_path_file D:\work\creo\creo_conf\search.pro
+!===
 !============================
 ! Files and Templates
 !============================
