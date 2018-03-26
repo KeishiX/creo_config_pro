@@ -6,6 +6,7 @@
 ! Creo 3.0 config v.042 for M100       09/29/2016
 ! Creo 3.0 config v.043 for M140       11/17/2017
 ! Creo 3.0 config v.044 for M150       12/20/2017
+! Creo 3.0 config v.045 for M150       03/26/2018
 !================================================
 !
 !============================
@@ -111,6 +112,7 @@ default_cable_axis_location along
 !============================
 ! UI and some defaults
 !============================
+load_ui_customization_run_dir yes
 todays_date_note_format %dd-%Mmm-%yy
 save_objects changed
 regenerate_read_only_objects no
@@ -140,4 +142,3 @@ mapkey(continued) ~ Trigger `mass_prop_dlg` `CSYSInput` ``;
 !model_tree_font Arial,8
 menu_font MS Sans Serif,8
 model_tree_font MS Sans Serif,8
-
