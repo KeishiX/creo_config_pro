@@ -1,7 +1,10 @@
 ## Config files for Creo
 
-Configuration files for Creo, based on Creo 3.0
+Configuration files for Creo.
 
+[Latest releases](https://github.com/Keishi4/creo_config_pro/releases)
+
+Contents:
 * main config file - ```/config/config.pro```
   * model tree config - ```/config/tree.cfg```
 * drawing template config - ```/dtl/metric_drw```
