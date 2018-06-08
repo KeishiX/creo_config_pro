@@ -16,4 +16,5 @@ Configuration files for Creo, based on Creo 3.0
 * system colors config:
   - ```/syscol/creo_default_syscol.scl```
   - ```/syscol/creo_syscol.scl```
+* UI customize - ```/ui_par_cust/creo_parametric_customization.ui```
 >>>>>>> m150
