@@ -7,14 +7,9 @@ Configuration files for Creo, based on Creo 3.0
 * drawing template config - ```/dtl/metric_drw```
 * drawing format config - ```/dtl/metric.fmt```
 * search file - ```/search/search.pro```
-<<<<<<< HEAD
-* system colors config - ```/syscol/creo_default_syscol.scl```
-* UI customize:
-   - Parametric - ```/ui_par_cust/creo_parametric_customization.ui```
-   - Simulation - ```/ui_par_cust/creo_simulate_customization.ui```
-=======
 * system colors config:
   - ```/syscol/creo_default_syscol.scl```
   - ```/syscol/creo_syscol.scl```
-* UI customize - ```/ui_par_cust/creo_parametric_customization.ui```
->>>>>>> m150
+* UI customize:
+   - Parametric - ```/ui_par_cust/creo_parametric_customization.ui```
+   - Simulation - ```/ui_par_cust/creo_simulate_customization.ui```
