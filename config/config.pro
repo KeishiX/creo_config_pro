@@ -12,7 +12,7 @@
 !============================
 ! Directories, paths, and browser
 !============================
-web_browser_homepage c:\Program Files\PTC\Creo 3.0\help\creo_help_pma\usascii\index.html
+web_browser_homepage D:\PTC\Creo 4.0\help\creo_help_pma\usascii\index.html
 enable_3dmodelspace_browser_tab no
 pro_library_dir D:\ptc\pro_stds\library\
 mdl_tree_cfg_file d:\work\creo\creo_conf\tree.cfg
@@ -26,7 +26,7 @@ hole_parameter_file_path D:\ptc\pro_stds\holes\
 !===
 ! Color
 !===
-system_colors_file D:\work\creo\creo_syscol.scl
+system_colors_file D:\work\creo\creo_conf\creo4_syscol.scl
 !===
 ! Search path
 !===
