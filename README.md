@@ -16,3 +16,4 @@ Contents:
 * UI customize:
    - Parametric - ```/ui_par_cust/creo_parametric_customization.ui```
    - Simulation - ```/ui_par_cust/creo_simulate_customization.ui```
+   - Direct - ```/ui_par_cust/creo_direct_customization.ui```

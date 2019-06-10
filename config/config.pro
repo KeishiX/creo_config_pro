@@ -14,6 +14,7 @@
 !============================
 web_browser_homepage D:\PTC\Creo 4.0\help\creo_help_pma\usascii\index.html
 enable_3dmodelspace_browser_tab no
+enable_partcommunity_tab no
 pro_library_dir D:\ptc\pro_stds\library\
 mdl_tree_cfg_file d:\work\creo\creo_conf\tree.cfg
 trail_dir D:\var\creo\trails\
@@ -78,6 +79,7 @@ dwg_export_format 2004
 !============================
 ! Display
 !============================
+display_full_object_path yes
 tangent_edge_display dimmed
 display_plane_tags yes
 datum_point_symbol dot
