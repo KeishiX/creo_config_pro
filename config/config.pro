@@ -1,49 +1,42 @@
 ﻿!================================================
-! Creo 3.0 config v.010 for M040       10/23/2015
-! Creo 3.0 config v.020 for M060       10/29/2015
-! Creo 3.0 config v.030 for M070       12/16/2015
-! Creo 3.0 config v.040 for M100       09/06/2016
-! Creo 3.0 config v.042 for M100       09/29/2016
-! Creo 3.0 config v.043 for M140       11/17/2017
-! Creo 3.0 config v.044 for M150       12/20/2017
-! Creo 3.0 config v.045 for M150       03/26/2018
+! Creo Config v.1.00 for 7.0.1.0       07/21/2020
 !================================================
 !
 !============================
 ! Directories, paths, and browser
 !============================
-web_browser_homepage D:\PTC\Creo 4.0\help\creo_help_pma\usascii\index.html
+web_browser_homepage d:\usr\PTC\Creo 4.0\help\creo_help_pma\usascii\index.html
 enable_3dmodelspace_browser_tab no
 enable_partcommunity_tab no
-pro_library_dir D:\ptc\pro_stds\library\
-mdl_tree_cfg_file d:\work\creo\creo_conf\tree.cfg
-trail_dir D:\var\creo\trails\
-pro_format_dir D:\ptc\pro_stds\drawings\format\
-pro_symbol_dir D:\ptc\pro_stds\symbols\
-!pro_table_dir D:\ptc\pro_stds\tables\
-tolerance_table_dir D:\ptc\pro_stds\tol_tables\
-pro_colormap_path D:\ptc\pro_stds\configs\
-hole_parameter_file_path D:\ptc\pro_stds\holes\
+pro_library_dir d:\usr\ptc\pro_stds\library\
+mdl_tree_cfg_file d:\home\creo\conf\tree.cfg
+trail_dir d:\var\creo\trails\
+pro_format_dir d:\usr\ptc\pro_stds\drawings\format\
+pro_symbol_dir d:\usr\ptc\pro_stds\symbols\
+!pro_table_dir d:\usr\ptc\pro_stds\tables\
+tolerance_table_dir d:\usr\ptc\pro_stds\tol_tables\
+pro_colormap_path d:\usr\ptc\pro_stds\configs\
+hole_parameter_file_path d:\usr\ptc\pro_stds\holes\
 !===
 ! Color
 !===
-system_colors_file D:\work\creo\creo_conf\creo4_syscol.scl
+system_colors_file d:\home\creo\conf\creo4_syscol.scl
 !===
 ! Search path
 !===
-search_path_file $CREO_COMMON_FILES\afx\parts\prolibrary\search.pro
-search_path_file D:\work\creo\creo_conf\search.pro
+!search_path_file $CREO_COMMON_FILES\afx\parts\prolibrary\search.pro
+search_path_file d:\home\creo\conf\search.pro
 !===
 !============================
 ! Files and Templates
 !============================
-drawing_setup_file D:\work\creo\creo_conf\metric_drw.dtl
-format_setup_file D:\work\creo\creo_conf\metric_fmt.dtl
-template_designasm $PRO_DIRECTORY\templates\mmks_asm_design.asm
-template_new_ecadasm $PRO_DIRECTORY\templates\inlbs_ecad_asm.asm
+drawing_setup_file d:\home\creo\conf\dtl\metric_drw.dtl
+format_setup_file d:\home\creo\conf\dtl\metric_fmt.dtl
+template_designasm $PRO_DIRECTORY\templates\mmks_asm_design_abs.asm
+template_new_ecadasm $PRO_DIRECTORY\templates\mmks_ecad_asm_rel.asm
 template_drawing $PRO_DIRECTORY\templates\a3_drawing.drw
 template_sheetmetalpart $PRO_DIRECTORY\templates\mmks_part_sheetmetal.prt
-template_solidpart $PRO_DIRECTORY\templates\solid_part_mmks.prt
+template_solidpart $PRO_DIRECTORY\templates\solid_part_mmks_new_rel.prt
 template_boardpart $PRO_DIRECTORY\templates\inlbs_ecad_board.prt
 !============================
 ! Units, Tolerance, Language translation, Data exchange formats
@@ -79,7 +72,6 @@ dwg_export_format 2004
 !============================
 ! Display
 !============================
-display_full_object_path yes
 tangent_edge_display dimmed
 display_plane_tags yes
 datum_point_symbol dot
@@ -141,6 +133,11 @@ mapkey(continued) ~ Trigger `mass_prop_dlg` `CSYSInput` ``;
 ! Fonts
 !============================
 !menu_font Arial,8
-!model_tree_font Arial,8
 menu_font MS Sans Serif,8
 model_tree_font MS Sans Serif,8
+!
+!============================
+! Unsorted options
+!============================
+use_inverted_mousewheel_zoom yes
+enable_creo_simulation_live no
