@@ -5,7 +5,7 @@
 !============================
 ! Directories, paths, and browser
 !============================
-web_browser_homepage d:\usr\PTC\Creo 4.0\help\creo_help_pma\usascii\index.html
+web_browser_homepage D:\usr\ptc\Creo 7.0.1.0\help\creo_help_pma\usascii\index.html
 enable_3dmodelspace_browser_tab no
 enable_partcommunity_tab no
 pro_library_dir d:\usr\ptc\pro_stds\library\
