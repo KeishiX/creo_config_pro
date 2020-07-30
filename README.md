@@ -12,6 +12,7 @@ Contents:
 * system colors config:
   - ```/syscol/creo_default_syscol.scl```
   - ```/syscol/creo_syscol.scl```
+  - ```/syscol/creo4_syscol.scl```
 * UI customize:
    - Parametric - ```/ui_par_cust/creo_parametric_customization.ui```
    - Simulation - ```/ui_par_cust/creo_simulate_customization.ui```
