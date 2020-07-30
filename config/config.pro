@@ -1,13 +1,16 @@
 ﻿!================================================
-! Creo Config v.1.00 for 7.0.1.0       07/21/2020
+! Creo Config v.1.01 for 7.0.1.0       07/30/2020
 !================================================
 !
 !============================
 ! Directories, paths, and browser
 !============================
-web_browser_homepage D:\usr\ptc\Creo 7.0.1.0\help\creo_help_pma\usascii\index.html
+web_browser_homepage d:\usr\PTC\Creo 7.0.1.0\help\creo_help_pma\usascii\index.html
+!
 enable_3dmodelspace_browser_tab no
 enable_partcommunity_tab no
+enable_creo_simulation_live no
+!
 pro_library_dir d:\usr\ptc\pro_stds\library\
 mdl_tree_cfg_file d:\home\creo\conf\tree.cfg
 trail_dir d:\var\creo\trails\
@@ -65,13 +68,14 @@ help_translation no
 menu_translation no
 msg_translation no
 !===
-step_export_format Ap203_is
+step_export_format Ap214_is
 preferred_export_format dwg
 dxf_export_format 12
 dwg_export_format 2004
 !============================
 ! Display
 !============================
+display_full_object_path yes
 tangent_edge_display dimmed
 display_plane_tags yes
 datum_point_symbol dot
@@ -106,6 +110,7 @@ default_cable_axis_location along
 !============================
 ! UI and some defaults
 !============================
+use_inverted_mousewheel_zoom yes
 load_ui_customization_run_dir yes
 todays_date_note_format %dd-%Mmm-%yy
 save_objects changed
@@ -113,7 +118,6 @@ regenerate_read_only_objects no
 modify_offset_during_comp_drag yes
 default_chamfer_scheme 45xd
 show_object_type_in_taskbar yes
-!model_tree_font Arial,8
 measure_dialog_expand yes
 comp_assemble_start default
 open_simplified_rep_by_default yes
@@ -139,5 +143,3 @@ model_tree_font MS Sans Serif,8
 !============================
 ! Unsorted options
 !============================
-use_inverted_mousewheel_zoom yes
-enable_creo_simulation_live no

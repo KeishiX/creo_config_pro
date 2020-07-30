@@ -1,13 +1,16 @@
 ﻿!================================================
-! Creo Config v.1.00 for 7.0.1.0       07/21/2020
+! Creo Config v.1.01 for 7.0.1.0       07/30/2020
 !================================================
 !
 !============================
 ! Directories, paths, and browser
 !============================
 web_browser_homepage D:\ptc\Creo 7.0.1.0\help\creo_help_pma\usascii\index.html
+!
 enable_3dmodelspace_browser_tab no
 enable_partcommunity_tab no
+enable_creo_simulation_live no
+!
 pro_library_dir D:\ptc\pro_stds\library\
 ! mdl_tree_cfg_file d:\work\creo\creo_conf\tree.cfg
 trail_dir D:\var\creo\trails\
@@ -107,7 +110,7 @@ default_cable_axis_location along
 !============================
 ! UI and some defaults
 !============================
-enable_creo_simulation_live no
+use_inverted_mousewheel_zoom yes
 load_ui_customization_run_dir yes
 todays_date_note_format %dd-%Mmm-%yy
 save_objects changed
@@ -115,13 +118,11 @@ regenerate_read_only_objects no
 modify_offset_during_comp_drag yes
 default_chamfer_scheme 45xd
 show_object_type_in_taskbar yes
-!model_tree_font Arial,8
 measure_dialog_expand yes
 comp_assemble_start default
 open_simplified_rep_by_default yes
 parenthesize_ref_dim yes
 visible_message_lines 2.000000
-use_inverted_mousewheel_zoom yes
 !============================
 ! Mapkeys
 !============================
@@ -138,4 +139,7 @@ mapkey(continued) ~ Trigger `mass_prop_dlg` `CSYSInput` ``;
 !menu_font Arial,8
 menu_font MS Sans Serif,8
 model_tree_font MS Sans Serif,8
-
+!
+!============================
+! Unsorted options
+!============================
