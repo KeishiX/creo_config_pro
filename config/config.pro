@@ -1,11 +1,11 @@
 ﻿!================================================
-! Creo Config v.1.01 for 7.0.1.0       07/30/2020
+! Creo Config v.1.05 for 7.0.7.0       05/02/2022
 !================================================
 !
 !============================
 ! Directories, paths, and browser
 !============================
-web_browser_homepage d:\usr\PTC\Creo 7.0.1.0\help\creo_help_pma\usascii\index.html
+web_browser_homepage d:\usr\PTC\Creo 7.0.7.0\Creo 7.0.7.0\help\creo_help_pma\usascii\index.html
 !
 enable_3dmodelspace_browser_tab no
 enable_partcommunity_tab no
@@ -138,8 +138,9 @@ mapkey(continued) ~ Trigger `mass_prop_dlg` `CSYSInput` ``;
 !============================
 !menu_font Arial,8
 menu_font MS Sans Serif,8
-model_tree_font MS Sans Serif,8
+model_tree_font MS Sans Serif,9
 !
 !============================
 ! Unsorted options
 !============================
+save_texture_with_model yes

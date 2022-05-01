@@ -1,6 +1,6 @@
 ﻿!================================================
-! Drawing config v.01 for Creo 3.0    12/29/2015
-! Drawing config v.02 for Creo 3.0    10/18/2016
+! Drawing config v.01 for Creo 4.0    06/15/2018
+! Drawing config v.01 for Creo 7.0    05/02/2022
 !================================================
 drawing_text_color LETTER_COLOR
 text_height 3.500000
